@@ -1,0 +1,32 @@
+{
+  "name": "browserstack-automate-typescript-base-example",
+  "version": "0.0.1",
+  "description": "Example for https://github.com/ArkaneNetwork/browserstack-automate-typescript-base",
+  "scripts": {
+    "test": "cross-env BROWSERSTACK_BUILD=TestBuild mocha -r ts-node/register -r tsconfig-paths/register tests/*.ts"
+  },
+  "author": "steve.maris@arkane.network",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArkaneNetwork/browserstack-automate-typescript-base-example/issues"
+  },
+  "dependencies": {
+    "browserstack-automate-typescript-base": "0.0.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^7.0.1",
+    "mocha-typescript": "^1.1.17",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.8",
+    "@types/chai-as-promised": "^7.1.2",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^13.7.0",
+    "@types/selenium-webdriver": "^4.0.6",
+    "cross-env": "^7.0.0",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.5"
+  }
+}
