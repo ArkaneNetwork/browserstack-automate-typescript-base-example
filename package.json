@@ -11,7 +11,7 @@
     "url": "https://github.com/ArkaneNetwork/browserstack-automate-typescript-base-example/issues"
   },
   "dependencies": {
-    "browserstack-automate-typescript-base": "0.0.1",
+    "browserstack-automate-typescript-base": "0.0.3",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "mocha": "^7.0.1",
