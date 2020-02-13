@@ -7,7 +7,7 @@
 * `BROWSERSTACK_USERNAME=<your-user-name>`
 * `BROWSERSTACK_ACCESS_KEY=<your-access-key>`
 
-The username and access key can be found under "ASSESS KEY" on "https://automate.browserstack.com/" if you're logged in.
+The username and access key can be found under "ACCESS KEY" on "https://automate.browserstack.com/" if you're logged in.
 
 ```
 DO NOT COMMIT .env, this will contain your private acces key and username
